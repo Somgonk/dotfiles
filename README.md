@@ -33,6 +33,10 @@ In Nvim, install plugins with the `:PlugInstall` command
 
 Location: `~/.config/alacritty/alacritty.toml`
 
+Import the theme with 
+```
+curl -LO --output-dir ~/.config/alacritty/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+```
 
 ## zsh
 
