@@ -1,0 +1,10 @@
+# Import additional settings from another file
+import = [
+	"~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
+
+# Font configuration
+[font.normal]
+family = "CommitMono Nerd Font Mono"
+
+
