@@ -21,10 +21,11 @@ tmux source ~/.tmux.conf
 
 Location: `~/.config/nvim/init.vim`
 
-Install vim-plug
+Install vim-plug & ripgrep
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+brew install ripgrep
 ```
 
 In Nvim, install plugins with the `:PlugInstall` command
